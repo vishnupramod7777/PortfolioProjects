@@ -92,91 +92,48 @@ Table**](#chapter-1-microsoft-excel-pivot-table) **3**
 >
 > [3.5 Conclusion](#conclusion-2) 13
 
-[**Chapter 4 Data Cleansing and Wrangling
-(AQUASTAT)**](#chapter-4-data-cleansing-and-wrangling-aquastat) **13**
-
-> [4.1 About Excel and SAP Analytics
-> Cloud](#about-excel-and-sap-analytics-cloud) 13
->
-> [4.2 Dataset and Research
-> Questions](#dataset-and-research-questions-3) 13
->
-> [4.3 Applying the analytical tool and
-> results](#applying-the-analytical-tool-and-results-3) 14
->
-> [4.5 Conclusion](#conclusion-3) 17
-
-[**Chapter 5 SAP Crystal Reports**](#chapter-5-sap-crystal-reports)
+[**Chapter 4 SAP Crystal Reports**](#chapter-5-sap-crystal-reports)
 **17**
 
-> [5.1 About SAP Crystal Reports](#about-sap-crystal-reports) 17
+> [4.1 About SAP Crystal Reports](#about-sap-crystal-reports) 17
 >
-> [5.2 Dataset and Research
+> [4.2 Dataset and Research
 > Questions](#dataset-and-research-questions-4) 17
 >
-> [5.3 Applying the analytical tool and
+> [4.3 Applying the analytical tool and
 > results](#applying-the-analytical-tool-and-results-4) 17
 >
-> [5.4 Analysis and critique of the
+> [4.4 Analysis and critique of the
 > tool](#analysis-and-critique-of-the-tool-3) 19
 >
-> [5.5 Conclusion](#conclusion-4) 19
+> [4.5 Conclusion](#conclusion-4) 19
 
-[**Chapter 6 Tableau and Netlytic for Sentiment
+[**Chapter 5 Tableau and Netlytic for Sentiment
 Analysis**](#chapter-6-tableau-and-netlytic-for-sentiment-analysis)
 **19**
 
-> [6.1 About Tableau](#about-tableau-1) 19
+> [5.1 About Tableau](#about-tableau-1) 19
 >
-> [6.2 Dataset and Research
+> [5.2 Dataset and Research
 > Questions](#dataset-and-research-questions-5) 19
 >
-> [6.3 Applying the analytical tool and
+> [5.3 Applying the analytical tool and
 > results](#applying-the-analytical-tool-and-results-5) 20
 >
-> [6.3.1 Which country has the highest average price of
+> [5.3.1 Which country has the highest average price of
 > wine?](#which-country-has-the-highest-average-price-of-wine) 20
 >
-> [6.3.2 What are the top 3 most used keywords in the overall wine
+> [5.3.2 What are the top 3 most used keywords in the overall wine
 > review?](#what-are-the-top-3-most-used-keywords-in-the-overall-wine-review)
 > 20
 >
-> [6.3.3 What are all the top 10 negative
+> [5.3.3 What are all the top 10 negative
 > reviews??](#what-are-all-the-top-10-negative-reviews) 21
 >
-> [6.4 Analysis and Critique of the
+> [5.4 Analysis and Critique of the
 > Tool](#analysis-and-critique-of-the-tool-4) 22
 
-[**Chapter 7 SAP Analytics cloud - Predictive Analytics
-Scenarios**](#chapter-7-sap-analytics-cloud---predictive-analytics-scenarios)
-**22**
-
-> [7.1 SAP Analytics Cloud](#sap-analytics-cloud) 22
->
-> [7.2 Dataset and Research
-> Questions](#dataset-and-research-questions-6) 22
->
-> [7.3 Applying the analytical tool and
-> results](#applying-the-analytical-tool-and-results-6) 23
->
-> [7.3.1 What are the forecasted sales for December 2021 in the
-> U.S.?](#what-are-the-forecasted-sales-for-december-2021-in-the-u.s.)
-> 23
->
-> [7.3.2 Which month is expected to see the highest sales in the next 2
-> years?](#which-month-is-expected-to-see-the-highest-sales-in-the-next-2-years)
-> 23
->
-> [7.3.4 Which month has the highest impact on the cycle in terms of
-> forecast?](#which-month-has-the-highest-impact-on-the-cycle-in-terms-of-forecast)
-> 24
->
-> [7.4 Analysis and critique of the
-> tool](#analysis-and-critique-of-the-tool-5) 24
->
-> [7.5 Conclusion](#conclusion-5) 24
-
-[**Chapter 8 Executive Summary**](#chapter-8-executive-summary) **25**
+[**Chapter 7 Executive Summary**](#chapter-8-executive-summary) **25**
 
 # 
 
@@ -530,119 +487,10 @@ Tableau is valuable for its cloud feature, which allows you to save and
 access your reports anywhere at any time. It is also known for its
 interactivity and dashboard for business intelligence capabilities.
 
-# Chapter 4 Data Cleansing and Wrangling (AQUASTAT)
 
-## 4.1 About Excel and SAP Analytics Cloud
+# Chapter 4 SAP Crystal Reports
 
-Microsoft Excel is used for its cleaning capabilities and its pivot
-tables. It is used to summarize and visualize huge amounts of data very
-efficiently giving some easier access to primary data cleaning. It has
-flexibility where one can interchange rows and columns to get meaningful
-insights from the source data. Another key thing is its ability to add
-filters to the data easily for more detailed analysis. We can also use
-pivot tables to group the data and sort the data in a matter of clicks.
-It is simple yet has robust features, making it one of the cheap and
-ideal tools for business intelligence.
-
-SAP Analytics Cloud is a cloud-based analytics platform that helps
-organizations make better business decisions through data-driven
-insights. It connects to many data sources, including spreadsheets,
-databases, and cloud apps, allowing for interactive visualizations,
-reports, and dashboards.
-
-## 4.2 Dataset and Research Questions
-
-A dataset was obtained from fao.org/aquastat as an Excel spreadsheet,
-'*Aquastat Dissemination System.xlsx*.' Here, we choose only the
-necessary data for the purpose of cleaning and analyzing. It is
-recommended to select non-absolute values for certain measures, such as
-indices or percentages, instead of absolute values.
-
--   The dataset ranges from the year 2009 to 2020
-
-With the following dataset and the help of Excel and SAP Analytics
-Cloud, the data will be cleaned and structured based on our analytics
-questions and will be visualized.
-
-The following research questions will be answered using the following
-dataset and Tableau.
-
-1.  Based on the dataset, compare the GDP per capita for Argentina,
-    Russia, Thailand, Egypt, and India countries with its Gender
-    Inequality index.
-
-2.  What is the year-wise percentage of area equipped for irrigation
-    with groundwater and the total percentage of area actually irrigated
-    are irrigated.
-
-## 4.3 Applying the analytical tool and results
-
-On the website fao.org/aquastat, choose a database, select the year
-range and the necessary dataset that we want to explore and analyze, and
-download the file as an xlsx file as given in Figure 13.
-
-![](./media/image16.png){width="6.5in"
-height="3.0700995188101485in"}*Figure 13 Grid view of the dataset on the
-Aquastat website.*
-
-Insert the pivot table with country and year as columns and variables as
-rows, as given in Figure 14.
-
-![](./media/image26.png){width="6.355089676290464in"
-height="2.625in"}*Figure 14 Pivot table from the dataset*
-
-Copy the pivot table, paste it into a new sheet, delete unnecessary rows
-and sets of countries with blank values, and sort them by country name,
-as shown in Figure 15.
-
-![](./media/image15.png){width="5.942708880139983in" height="2.625in"}
-
-*Figure 15 New table from the pivot table of the original dataset.*
-
-Filter the countries taken for analysis (Egypt, Argentina, India,
-Russia, Thailand) and load them to SAC for Analysis. The dataset allows
-us to compare the GDP per capita of Argentina, Russia, Thailand, Egypt,
-and India with their Gender Inequality index.
-
-![](./media/image25.png){width="6.265625546806649in" height="3.0in"}
-
-*Figure 16. GDP per capita with GII per country.*
-
-Figure 16 tells us that the countries with a very high rate of gender
-inequality have the lowest GDP per capita, indicating their
-underdevelopment from both economic and moral perspectives.
-
-Then, we can choose the comparison chart. Using the country as a
-trellis, we can get the year-wise percentage of the area equipped for
-irrigation with groundwater and the total percentage of area irrigated
-each year from 2009 to 2020 (figure 17).
-
-![](./media/image5.png){width="6.361111111111111in"
-height="2.9786646981627296in"}*Figure 17. Country wise % of the area for
-irrigation by groundwater and actually irrigated*
-
-**4.4 Analysis and critique of the tool**
-
-Data cleaning and wrangling structured data with the help of pivot
-tables using Excel is a convenient way that does not involve complicated
-tasks. We use SAC for visualizing the cleaned and normalized data. SAC
-is a cloud-based program; hence, it is highly scalable, readily
-available, and can be used by businesses of different sizes at varying
-budgets to analyze small to mid-enterprise-level data. Team-wise cloud
-collaboration is possible, which needs to be improved in the Excel pivot
-table.
-
-## 4.5 Conclusion
-
-In conclusion, the combination of both Excel and SAC is a robust way to
-use Microsoft Excel for Foundational data cleaning and wrangling based
-on our business and analysis requirements. Even though it is very useful
-for data cleansing and wrangling with Excel still, SAC is suited for its
-advanced visualization capabilities.
-
-# Chapter 5 SAP Crystal Reports
-
-## 5.1 About SAP Crystal Reports
+## 4.1 About SAP Crystal Reports
 
 SAP Crystal Reports is a powerful tool for creating dynamic reports from
 real-time data. The reports generated by these are highly formatted and
@@ -650,7 +498,7 @@ customized and also support various data sources. The ability to connect
 a real-time database to a reporting dashboard paves the way for
 reporting streaming data pipelines.
 
-## 5.2 Dataset and Research Questions
+## 4.2 Dataset and Research Questions
 
 A dataset was accessed from the SAP BW Belfast server with the necessary
 login credentials, and this server can be directly connected to the SAP
@@ -659,7 +507,7 @@ and reporting. We will be deriving a Sales revenue report for Global
 Bike sales from the given dataset to get the Subtotal of revenue
 generated and also year-by-year bicycle revenue grouped by country.
 
-## 5.3 Applying the analytical tool and results
+## 4.3 Applying the analytical tool and results
 
 We create a new blank report, establish a new connection to our SAP BW
 Belfast Server, and access our database. Then, we choose the necessary
@@ -682,7 +530,7 @@ height="4.206434820647419in"}
 
 *Figure 19. Final sales revenue report in the preview*
 
-## 5.4 Analysis and critique of the tool
+## 4.4 Analysis and critique of the tool
 
 I found SAP Crystal reports similar to the ZOHO or Hubspot CRMs but way
 more advanced and technologically strong. How we can connect a database
@@ -692,7 +540,7 @@ and quite user-friendly to generate reports, and it also runs locally.
 One major disadvantage is that the data we feed must be clean, as it
 does not have thorough data-cleaning capabilities
 
-## 5.5 Conclusion
+## 4.5 Conclusion
 
 In conclusion, SAP Crystal reports are one of the fastest, easiest, and
 most efficient ways of generating real-time enterprise-level reports
@@ -701,9 +549,9 @@ to reduce any significant errors in the reports. The formatting
 capabilities make it one of the most user-friendly tools for creating
 enterprise-level reports.
 
-# Chapter 6 Tableau and Netlytic for Sentiment Analysis
+# Chapter 5 Tableau and Netlytic for Sentiment Analysis
 
-## 6.1 About Tableau
+## 5.1 About Tableau
 
 Tableau is a business intelligence (BI) and data visualization software
 application. It lets you connect to your data, visualize it, and build
@@ -724,7 +572,7 @@ supports open-source social media and other datasets, which can be
 pulled, and processed and get the dataset ready for injection into any
 analysis tool.
 
-## 6.2 Dataset and Research Questions
+## 5.2 Dataset and Research Questions
 
 The original dataset has been downloaded from a data portal called
 Kaggle, https://www.kaggle.com/zynicide/wine-reviews. This dataset
@@ -745,9 +593,9 @@ dataset, Tableau and Netlytic.
 
 4.  What are all the top 10 positive reviews?
 
-## 6.3 Applying the analytical tool and results
+## 5.3 Applying the analytical tool and results
 
-### 6.3.1 Which country has the highest average price of wine?
+### 5.3.1 Which country has the highest average price of wine?
 
 The dataset was imported and then tableau has the ability to generate
 Geography map and with that we use average price as the key variable and
@@ -760,7 +608,7 @@ With the above chart, we get figure 20 which reveals that Hungary in
 Europe has the most expensive wine pricing, with an average of 59.87
 dollars.
 
-### 6.3.2 What are the top 3 most used keywords in the overall wine review?
+### 5.3.2 What are the top 3 most used keywords in the overall wine review?
 
 For this, we use the netlytic tool to preprocess the data to get a bag
 of words from the dataset containing wine reviews. The bag of words will
@@ -773,7 +621,7 @@ then be imported onto Tableau for analysis.
 Figure 21 above shows that 'Flavour', 'Aromas', and 'Finish' are the top
 3 most used keywords in the reviews from the given dataset.
 
-### 6.3.3 What are all the top 10 negative reviews??
+### 5.3.3 What are all the top 10 negative reviews??
 
 We use the same wine reviews dataset and import the polarity scores to
 the tableau for the sentiment analysis.
@@ -787,7 +635,7 @@ Figure 22 helps us obtain the most negative reviews from the dataset,
 and we can see that the most negative reviews concern the quality of the
 wine, especially its aromas.
 
-## 6.4 Analysis and Critique of the Tool
+## 5.4 Analysis and Critique of the Tool
 
 Even with its visualisation capabilities, Tableau doesn\'t have many
 data processing capabilities, such as collecting a bag of words, etc.,
@@ -795,7 +643,7 @@ but in combination with other tools such as Netlytic, it can be of good
 use. Netlytic is also to be praised for its motive of focussing on
 text-based data analysis while being open-source.
 
-**6.5 Conclusion**
+**5.5 Conclusion**
 
 Tableau is valuable for its cloud feature, which allows you to save and
 access your reports anywhere at any time with its robust visualization
@@ -805,7 +653,7 @@ preparing the data.
 
 # Chapter 7 SAP Analytics cloud - Predictive Analytics Scenarios
 
-## 7.1 SAP Analytics Cloud
+## 6.1 SAP Analytics Cloud
 
 A predictive analytics tool in SAP Analytics Cloud (SAC) may help
 businesses project the future using historical data. Along with offering
@@ -814,7 +662,7 @@ important factors that affect company performance with the ability to
 create custom predictive models utilizing a variety of algorithms which
 aids in identifying the most important variables for prediction.
 
-## 7.2 Dataset and Research Questions
+## 6.2 Dataset and Research Questions
 
 The data set was made available on Brightspace as an Excel spreadsheet
 with the file name GBSales_Transactions.xlsx which has five columns with
@@ -836,9 +684,9 @@ and currency are the parameters, and revenue as the measure.
 4.  Which month has the highest impact on the cycle in terms of
     forecast?
 
-## 7.3 Applying the analytical tool and results
+## 6.3 Applying the analytical tool and results
 
-### 7.3.1 What are the forecasted sales for December 2021 in the U.S.?
+### 6.3.1 What are the forecasted sales for December 2021 in the U.S.?
 
 ![](./media/image12.jpg){width="6.5in" height="3.0in"}*Figure 23 Grid
 view of the dataset on the Aquastat website.*
@@ -846,7 +694,7 @@ view of the dataset on the Aquastat website.*
 The above line graph visualizes the forecasted sales in the US. Revenue
 is expected to reach around 1904800 USD by December 1, 2021.
 
-### 7.3.2 Which month is expected to see the highest sales in the next 2 years? 
+### 6.3.2 Which month is expected to see the highest sales in the next 2 years? 
 
 ![](./media/image24.jpg){width="6.354166666666667in"
 height="3.2343755468066493in"}*Figure 24 Pivot table from the dataset*
@@ -857,7 +705,7 @@ USD, June 1, 2022 is predicted to have the highest revenue in terms of
 sales. Note to be taken that this analysis is done keeping 2 years of
 2021 and 2022 in mind
 
-### 7.3.4 Which month has the highest impact on the cycle in terms of forecast?
+### 6.3.4 Which month has the highest impact on the cycle in terms of forecast?
 
 ![](./media/image6.jpg){width="5.942708880139983in"
 height="3.136940069991251in"}
@@ -868,7 +716,7 @@ Figure 25 shows the effect of certain months on the annual cycle. June
 consistently has the most significant sales and appears to have the most
 influence on the yearly sales cycle in the given period.
 
-## 7.4 Analysis and critique of the tool
+## 6.4 Analysis and critique of the tool
 
 SAC has a sophisticated user interface that can be difficult for novice
 users to operate. There are many tools and capabilities in the software,
@@ -877,7 +725,7 @@ Users who are inexperienced with business intelligence tools or data
 analysis may find it more difficult to utilize as a result Especially
 the one with the machine leaning or prediction requirements.
 
-## 7.5 Conclusion
+## 6.5 Conclusion
 
 SAP Analytics Cloud (SAC) presents itself as a strong analytics option
 for companies looking for a cloud-based platform that integrates easily
@@ -893,7 +741,7 @@ that rely substantially on a diversified software ecosystem. Prior to
 making a final decision, it is advisable to thoroughly assess these
 aspects in conjunction with an organization\'s particular requirements.
 
-# Chapter 8 Executive Summary
+# Chapter 7 Executive Summary
 
 In today\'s data-rich world, effective business decisions rely heavily
 on the insights gleaned from powerful analytics tools. This report
