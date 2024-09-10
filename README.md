@@ -3,11 +3,10 @@
 >
 > **[BUSINESS ANALYTICS]{.underline} [TOOLKIT PORTFOLIO]{.underline}**
 
-**Banner ID:** B00966750
+**Student ID:** 0284044
 
-**Name:** Karthikeyan Kandan
+**Name:** Vishnu Pramod Nair
 
-**Professor:** Kyung Lee
 
 # 
 
@@ -196,7 +195,7 @@ it one of the cheap and ideal tools for business intelligence.
 
 ## **1.2 Dataset and Research Questions**
 
-A dataset was provided in class by Professor Kyung Lee as an Excel
+A dataset i used for the analysis is  an Excel
 spreadsheet. This dataset is of a fictitious company called 'Global Bike
 Inc (GBI),' and it has over 23 columns of examineable variables such as
 revenue, sales, year, products, discounts, and customer information.
